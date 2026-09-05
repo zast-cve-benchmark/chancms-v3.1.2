@@ -1,0 +1,252 @@
+2025-07-11 10:14 +08:00: TypeError: Cannot destructure property 'domain' of 'siteConfig' as it is undefined.
+2025-07-11 10:14 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/middleware/init.js:20:15
+2025-07-11 10:14 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:14 +08:00: TypeError: Cannot destructure property 'domain' of 'siteConfig' as it is undefined.
+2025-07-11 10:14 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/middleware/init.js:20:15
+2025-07-11 10:14 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:16 +08:00: TypeError: Cannot destructure property 'domain' of 'siteConfig' as it is undefined.
+2025-07-11 10:16 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/middleware/init.js:20:15
+2025-07-11 10:16 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:16 +08:00: TypeError: Cannot destructure property 'domain' of 'siteConfig' as it is undefined.
+2025-07-11 10:16 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/middleware/init.js:20:15
+2025-07-11 10:16 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:18 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:18 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:18 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:18 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:18 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:18 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:18 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:18 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:18 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:18 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:18 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:18 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:18 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:18 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:22 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:22 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:22 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:22 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:22 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:22 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:22 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:22 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:22 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:22 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:22 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:22 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:22 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:22 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:22 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:22 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:22 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:22 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:22 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:22 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:22 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:22 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:22 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:22 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:22 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:22 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:22 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:22 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:28 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:28 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:28 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:28 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:28 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:28 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:28 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:28 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:28 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:28 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:28 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:28 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:28 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:28 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:35 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:35 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:35 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:35 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:35 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:35 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:35 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:35 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:35 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:35 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:35 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:35 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:35 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:35 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:35 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:35 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:35 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:35 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:35 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:35 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:35 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:35 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:35 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:35 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:35 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:35 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:35 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:25:34)
+2025-07-11 10:35 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:37 +08:00: Login error: Error: Illegal arguments: string, undefined
+2025-07-11 10:37 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:37 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:37 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:37 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:37 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:37 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:37 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:37 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:37 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:37 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:37 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:37 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:37 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:37 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:37 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:37 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:37 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:37 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:37 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:37 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:38 +08:00: Login error: Error: Illegal arguments: string, undefined
+2025-07-11 10:38 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:38 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:38 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:38 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:38 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:38 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:38 +08:00: SysUserController.login--> Error: Illegal arguments: string, undefined
+2025-07-11 10:38 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:38 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:38 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:38 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:38 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:38 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:38 +08:00: Error: Illegal arguments: string, undefined
+2025-07-11 10:38 +08:00:     at _async (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:252:11)
+2025-07-11 10:38 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:280:7
+2025-07-11 10:38 +08:00:     at new Promise (<anonymous>)
+2025-07-11 10:38 +08:00:     at Object.compare (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/bcryptjs/index.js:279:12)
+2025-07-11 10:38 +08:00:     at SysUserController.login (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/base/controller/SysUser.js:35:34)
+2025-07-11 10:38 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:48 +08:00: TypeError: fetch failed
+2025-07-11 10:48 +08:00:     at node:internal/deps/undici/undici:13185:13
+2025-07-11 10:48 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 10:48 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:9:24)
+2025-07-11 10:48 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:00 +08:00: TypeError: fetch failed
+2025-07-11 11:00 +08:00:     at node:internal/deps/undici/undici:13185:13
+2025-07-11 11:00 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:00 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:9:24)
+2025-07-11 11:00 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:00 +08:00: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+2025-07-11 11:00 +08:00:     at JSON.parse (<anonymous>)
+2025-07-11 11:00 +08:00:     at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)
+2025-07-11 11:00 +08:00:     at successSteps (node:internal/deps/undici/undici:5470:27)
+2025-07-11 11:00 +08:00:     at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+2025-07-11 11:00 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:00 +08:00:     at async consumeBody (node:internal/deps/undici/undici:5479:7)
+2025-07-11 11:00 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:10:22)
+2025-07-11 11:00 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:01 +08:00: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+2025-07-11 11:01 +08:00:     at JSON.parse (<anonymous>)
+2025-07-11 11:01 +08:00:     at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)
+2025-07-11 11:01 +08:00:     at successSteps (node:internal/deps/undici/undici:5470:27)
+2025-07-11 11:01 +08:00:     at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+2025-07-11 11:01 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:01 +08:00:     at async consumeBody (node:internal/deps/undici/undici:5479:7)
+2025-07-11 11:01 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:10:22)
+2025-07-11 11:01 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:02 +08:00: TypeError: Failed to parse URL from undefined
+2025-07-11 11:02 +08:00:     at node:internal/deps/undici/undici:13185:13
+2025-07-11 11:02 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:02 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:9:24)
+2025-07-11 11:02 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:02 +08:00: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+2025-07-11 11:02 +08:00:     at JSON.parse (<anonymous>)
+2025-07-11 11:02 +08:00:     at parseJSONFromBytes (node:internal/deps/undici/undici:5489:19)
+2025-07-11 11:02 +08:00:     at successSteps (node:internal/deps/undici/undici:5470:27)
+2025-07-11 11:02 +08:00:     at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+2025-07-11 11:02 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:02 +08:00:     at async consumeBody (node:internal/deps/undici/undici:5479:7)
+2025-07-11 11:02 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:10:22)
+2025-07-11 11:02 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:03 +08:00: SyntaxError: Unexpected identifier 'HTTP'
+2025-07-11 11:03 +08:00:     at new Function (<anonymous>)
+2025-07-11 11:03 +08:00:     at GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:20:17)
+2025-07-11 11:03 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:09 +08:00: TypeError: Failed to parse URL from undefined
+2025-07-11 11:09 +08:00:     at node:internal/deps/undici/undici:13185:13
+2025-07-11 11:09 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:09 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:9:24)
+2025-07-11 11:09 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:11 +08:00: Error: connect ETIMEDOUT 10.10.10.10:80
+2025-07-11 11:11 +08:00:     at AxiosError.from (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/AxiosError.js:92:14)
+2025-07-11 11:11 +08:00:     at RedirectableRequest.handleRequestError (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/adapters/http.js:620:25)
+2025-07-11 11:11 +08:00:     at RedirectableRequest.emit (node:events:519:28)
+2025-07-11 11:11 +08:00:     at eventHandlers.<computed> (D:\javaweb\nodejsweb\ChanCMS-v3.1.2\node_modules\follow-redirects\index.js:49:24)
+2025-07-11 11:11 +08:00:     at ClientRequest.emit (node:events:519:28)
+2025-07-11 11:11 +08:00:     at emitErrorEvent (node:_http_client:101:11)
+2025-07-11 11:11 +08:00:     at Socket.socketErrorListener (node:_http_client:504:5)
+2025-07-11 11:11 +08:00:     at Socket.emit (node:events:519:28)
+2025-07-11 11:11 +08:00:     at emitErrorNT (node:internal/streams/destroy:169:8)
+2025-07-11 11:11 +08:00:     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+2025-07-11 11:11 +08:00:     at Axios.request (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/Axios.js:45:41)
+2025-07-11 11:11 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:11 +08:00:     at async CollectService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/collect.js:12:24)
+2025-07-11 11:11 +08:00:     at async CollectController.getPages (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/collect.js:21:20)
+2025-07-11 11:12 +08:00: Error: connect ETIMEDOUT 10.10.10.10:80
+2025-07-11 11:12 +08:00:     at AxiosError.from (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/AxiosError.js:92:14)
+2025-07-11 11:12 +08:00:     at RedirectableRequest.handleRequestError (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/adapters/http.js:620:25)
+2025-07-11 11:12 +08:00:     at RedirectableRequest.emit (node:events:519:28)
+2025-07-11 11:12 +08:00:     at eventHandlers.<computed> (D:\javaweb\nodejsweb\ChanCMS-v3.1.2\node_modules\follow-redirects\index.js:49:24)
+2025-07-11 11:12 +08:00:     at ClientRequest.emit (node:events:519:28)
+2025-07-11 11:12 +08:00:     at emitErrorEvent (node:_http_client:101:11)
+2025-07-11 11:12 +08:00:     at Socket.socketErrorListener (node:_http_client:504:5)
+2025-07-11 11:12 +08:00:     at Socket.emit (node:events:519:28)
+2025-07-11 11:12 +08:00:     at emitErrorNT (node:internal/streams/destroy:169:8)
+2025-07-11 11:12 +08:00:     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+2025-07-11 11:12 +08:00:     at Axios.request (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/Axios.js:45:41)
+2025-07-11 11:12 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:12 +08:00:     at async CollectService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/collect.js:12:24)
+2025-07-11 11:12 +08:00:     at async CollectController.getPages (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/collect.js:21:20)
+2025-07-11 11:14 +08:00: TypeError: fetch failed
+2025-07-11 11:14 +08:00:     at node:internal/deps/undici/undici:13185:13
+2025-07-11 11:14 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:14 +08:00:     at async GatherService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/gather.js:9:24)
+2025-07-11 11:14 +08:00:     at async GatherController.getArticle (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/gather.js:19:18)
+2025-07-11 11:17 +08:00: Error: connect ETIMEDOUT 10.10.10.10:80
+2025-07-11 11:17 +08:00:     at AxiosError.from (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/AxiosError.js:92:14)
+2025-07-11 11:17 +08:00:     at RedirectableRequest.handleRequestError (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/adapters/http.js:620:25)
+2025-07-11 11:17 +08:00:     at RedirectableRequest.emit (node:events:519:28)
+2025-07-11 11:17 +08:00:     at eventHandlers.<computed> (D:\javaweb\nodejsweb\ChanCMS-v3.1.2\node_modules\follow-redirects\index.js:49:24)
+2025-07-11 11:17 +08:00:     at ClientRequest.emit (node:events:519:28)
+2025-07-11 11:17 +08:00:     at emitErrorEvent (node:_http_client:101:11)
+2025-07-11 11:17 +08:00:     at Socket.socketErrorListener (node:_http_client:504:5)
+2025-07-11 11:17 +08:00:     at Socket.emit (node:events:519:28)
+2025-07-11 11:17 +08:00:     at emitErrorNT (node:internal/streams/destroy:169:8)
+2025-07-11 11:17 +08:00:     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+2025-07-11 11:17 +08:00:     at Axios.request (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/node_modules/axios/lib/core/Axios.js:45:41)
+2025-07-11 11:17 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-11 11:17 +08:00:     at async CollectService.common (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/service/collect.js:12:24)
+2025-07-11 11:17 +08:00:     at async CollectController.getPages (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/collect.js:21:20)
+2025-07-11 11:39 +08:00: Error: ENOENT: no such file or directory, access 'D:\abcdefg.txt'
+2025-07-11 11:39 +08:00:     at Object.accessSync (node:fs:244:11)
+2025-07-11 11:39 +08:00:     at delImg (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/extend/utils.js:136:8)
+2025-07-11 11:39 +08:00:     at ArticleController.delfile (file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/modules/cms/controller/article.js:168:18)
+2025-07-11 11:39 +08:00:     at Layer.handleRequest (D:\javaweb\nodejsweb\ChanCMS-v3.1.2\node_modules\router\lib\layer.js:152:17)
+2025-07-11 11:39 +08:00:     at next (D:\javaweb\nodejsweb\ChanCMS-v3.1.2\node_modules\router\lib\route.js:157:13)
+2025-07-11 11:39 +08:00:     at file:///D:/javaweb/nodejsweb/ChanCMS-v3.1.2/app/middleware/auth.js:50:15
+2025-07-11 11:39 +08:00:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+2025-07-11 11:39 +08:00:   errno: -4058,
+2025-07-11 11:39 +08:00:   code: 'ENOENT',
+2025-07-11 11:39 +08:00:   syscall: 'access',
+2025-07-11 11:39 +08:00:   path: 'D:\\abcdefg.txt'
+2025-07-11 11:39 +08:00: }

@@ -1,0 +1,12 @@
+/node_modules
+/.idea
+/.vscode
+/log
+/client/plus-member
+/doc
+/package-lock.json
+/data/chanyue.sql
+/data/demo.sql
+/app/modules/web/view/cms
+/app/modules/web/view/nuofeng
+/app/public/template/nuofeng

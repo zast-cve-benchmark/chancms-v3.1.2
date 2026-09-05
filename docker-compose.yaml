@@ -1,0 +1,38 @@
+services:
+  db:
+    image: mysql:5.7
+    container_name: chancms-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: chancms
+    volumes:
+      - ./data/chancms.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysql_data:/var/lib/mysql
+    networks:
+      - chancms-network
+
+  app:
+    build: .
+    container_name: chancms-app
+    restart: always
+    environment:
+      - NODE_ENV=prd
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_NAME=chancms
+    ports:
+      - "7001:7001"
+    depends_on:
+      - db
+    networks:
+      - chancms-network
+
+
+networks:
+  chancms-network:
+    driver: bridge
+
+volumes:
+  mysql_data:

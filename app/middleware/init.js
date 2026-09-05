@@ -1,0 +1,33 @@
+import Chan from "chanjs";
+
+const {
+  modules: {
+    cms: {
+      service: { Site },
+    },
+  },
+  config: { template, env, cache},
+} = Chan;
+
+export default () => {
+  return async (req, res, next) => {
+    try {
+      if ("domain" in req.app.locals && env === "prd" && cache) {
+        await next();
+        return;
+      }
+      let siteConfig = await Site.info();
+      const { domain } = siteConfig;
+      let _template = siteConfig.template || template;
+      Chan.config.template = _template;
+      req.app.locals = {
+        template: _template,
+        domain,
+        static_url: `/public/template/${_template}/`,
+      };
+      await next();
+    } catch (error) {
+      next(error);
+    }
+  };
+};
